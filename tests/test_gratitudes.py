@@ -11,7 +11,7 @@ def test_initially_gratitudes_is_empy():
     assert actual == expected
 
 """Test adding multiple gatitudes get returned in the correct format"""
-def test_initially_gratitudes_is_empy():
+def test_initially_gratitudes_is_empty():
     gratitudes = Gratitudes()
     gratitudes.add("health")
     gratitudes.add("wealth")
